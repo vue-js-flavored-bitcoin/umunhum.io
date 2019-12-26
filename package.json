@@ -1,0 +1,39 @@
+{
+  "name": "umunhum.io",
+  "version": "0.2.6",
+  "description": "Source code for umunhum.io",
+  "author": "",
+  "private": true,
+  "scripts": {
+    "dev": "parcel index.html",
+    "lint": "eslint --ext .js,.vue src test/unit",
+    "build": "parcel build index.html"
+  },
+  "keywords": [],
+  "license": "ISC",
+  "dependencies": {
+    "npm": "^6.13.4",
+    "vue": "^2.5.16",
+    "vue-hot-reload-api": "^2.3.4",
+    "vue-router": "^3.0.1"
+  },
+  "devDependencies": {
+    "@vue/component-compiler-utils": "^3.1.0",
+    "babel-eslint": "^8.2.1",
+    "@babel/core": "^7.7.7",
+    "@babel/preset-env": "^7.7.7",
+    "babel-plugin-dynamic-import-node": "^1.2.0",
+    "babel-plugin-transform-es2015-modules-commonjs": "^6.26.0",
+    "eslint": "^4.15.0",
+    "eslint-config-standard": "^10.2.1",
+    "eslint-friendly-formatter": "^3.0.0",
+    "eslint-loader": "^1.7.1",
+    "eslint-plugin-import": "^2.7.0",
+    "eslint-plugin-node": "^5.2.0",
+    "eslint-plugin-promise": "^3.4.0",
+    "eslint-plugin-standard": "^3.0.1",
+    "eslint-plugin-vue": "^4.0.0",
+    "parcel-bundler": "^1.12.4",
+    "vue-template-compiler": "^2.5.16"
+  }
+}
